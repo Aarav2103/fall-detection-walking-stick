@@ -1,0 +1,13 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Fitted models -- regenerate with fit_model.py
+*.pkl
+
+# Host test binary
+tools/host_parity/host_detect
+
+# Credentials (secrets.example.h is committed, secrets.h is not)
+firmware/esp8266/secrets.h
